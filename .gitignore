@@ -7,3 +7,10 @@
 typings/
 node_modules
 www/keys.js
+testRecord.save()
+.then(function(m){
+alert("success:" + JSON.stringify(m));
+})
+.catch(function(m){
+alert("fail:" + JSON.stringify(m));
+});
